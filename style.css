@@ -250,7 +250,7 @@ header .header-img img {
 
 .imgOverlay:hover {
     opacity: 1;
-    transition: 0.5s;
+    transition: .5s;
 }
 
 
