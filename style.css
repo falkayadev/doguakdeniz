@@ -27,6 +27,11 @@ a {
     letter-spacing: 3px;
 }
 
+@media only screen and (max-width: 700px){
+    html{
+        font-size: 5px;
+    }
+}
 
 /*navbar*/
 
@@ -142,7 +147,7 @@ header .splice {
 
 .starLineBlack::after {
     content: "\2605";
-    color: #black;
+    color: black;
     font-weight: 900;
     font-size: 3.2rem;
     position: relative;
@@ -180,6 +185,7 @@ header .header-img img {
     padding-top: 10rem;
     padding-bottom: 10rem;
     background-color: #eaeaea;
+    width: 100%;
 }
 
 #portfolio .container {
@@ -188,6 +194,7 @@ header .header-img img {
     justify-content: center;
     align-items: center;
     margin-top: 40px;
+    width: 100%;
 }
 
 #portfolio .container .slicer {
@@ -207,23 +214,22 @@ header .header-img img {
     width: 33.333%;
     height: 300px;
     margin-top: 4rem;
+
 }
 
-#portfolio .col-test {
-    background-color: #2d3d4f;
-    width: 33.333%;
-    height: 300px;
-    margin-top: 3rem;
-}
 
 .portfolioItem {
     margin: 10px 40px;
-}
+
+
+
 
 .img {
     width: 100%;
     height: 300px;
     border-radius: 10px;
+
+}
 
 }
 
@@ -249,7 +255,7 @@ header .header-img img {
 
 
 #portfolio h2 {
-    color: #black;
+    color: black;
     font-size: 3rem;
 }
 
@@ -259,7 +265,6 @@ header .header-img img {
     align-items: center;
     background-color: black;
     color: red;
-    height: 60rem;
     padding-top: 4rem;
 }
 
@@ -276,6 +281,8 @@ header .header-img img {
 #aboutText {
     text-align: left;
     margin-top: 8rem;
+    display: flex;
+    flex-direction: row;
 }
 
 #aboutText .text {
@@ -283,21 +290,18 @@ header .header-img img {
 }
 
 #aboutText .left {
-    float: left;
-    width: 50%;
     padding-right: 2rem;
     padding-left: 23rem;
 }
 
 #aboutText .right {
-    float: right;
-    width: 50%;
     padding-left: 2rem;
     padding-right: 23rem;
 }
 
 .btn {
-    margin-top: 8rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     font-size: 2rem;
     font-weight: 400;
     display: inline-block;
@@ -424,7 +428,7 @@ footer .fab {
     width: 30px;
     text-align: center;
     text-decoration: none;
-    margin: 20px 0px;
+    margin: 20px;
 }
 
 footer .fab:hover{
