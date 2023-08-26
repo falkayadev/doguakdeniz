@@ -9,6 +9,11 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <script>
+    function messageForButton(){
+      alert("Bu bir test butonudur.");
+    }
+  </script>
 
 
 </head>
@@ -124,7 +129,7 @@
       </div>
     </div>
 
-    <button class="btn btn-primary">
+    <button class="btn btn-primary" onclick="messageForButton()">
       Send
     </button>
   </div>
@@ -158,7 +163,7 @@
     </div>
   </div>
 
-  <button class="btn btn-outline">
+  <button class="btn btn-outline" onclick="messageForButton()">
     <i class="fas fa-download"></i>
     Download Now!
   </button>
@@ -187,7 +192,7 @@
     <div class="form-group">
       <textarea id="message" rows="4" placeholder="Message"></textarea>
     </div>
-    <div class="btn-align">
+    <div class="btn-align" onclick="messageForButton()">
       <button class="btn btn-primary">
         Send
       </button>
